@@ -1,0 +1,36 @@
+.about{
+    padding: 10vh 0;
+    background-color: $tertiary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+        &-photo{
+            height: 30rem;
+            width: 30rem;
+            margin-right: 4vh;
+            border-radius: 100%;
+            box-shadow: 1rem 2rem 3rem rgba($secondary-color,.2);
+            margin-bottom: 3vh;
+
+            @media only screen and(max-width:550px){
+                height: 20rem;
+                width: 20rem;
+                border-radius: 100%;
+            }
+            
+        }
+
+        &-details{
+            flex: 0 0 40%;
+        }
+    }
+}

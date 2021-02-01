@@ -1,0 +1,37 @@
+//-----------Variables--------//
+
+$primary-color:rgb(222, 18, 45);
+$secondary-color:rgb(26, 24, 24);
+$tertiary-color:rgb(230, 224, 225);
+$text-primary:rgb(238, 235, 235);
+$text-tertiary:rgb(44, 43, 43);
+
+//-----------Basic Styling--------//
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;    
+}
+
+
+//-----------Imported sass file--------//
+
+@import '../sass/header';
+@import '../sass/about';
+@import '../sass/reusable';
+@import '../sass/education';
+@import '../sass/experience';
+@import '../sass/works';
+@import '../sass/contact';
+@import '../sass/footer';
